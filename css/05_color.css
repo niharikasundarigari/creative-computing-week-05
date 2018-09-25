@@ -18,7 +18,7 @@ body {
   font-size: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: hsl(347, 47%, 20%);
 }
 
 .center {
@@ -41,8 +41,16 @@ body {
   background-color: gray;
   top: 55%;
   left: 55%;
+    background-color: hsl(347, 67%, 50%);
+    background: rgba(109, 207, 130, 1.0);
+background: -webkit-radial-gradient(center, rgba(109, 207, 130, 1.0), rgba(19, 55, 69, 1.0));
+background: -moz-radial-gradient(center, rgba(109, 207, 130, 1.0), rgba(19, 55, 69, 1.0));
+background: radial-gradient(ellipse at center, rgba(109, 207, 130, 1.0), rgba(19, 55, 69, 1.0));
+
 }
 
 .box-2 {
   background-color: darkgray;
+    background-color: hsl(347, 87%, 50%);
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAAXNSR0IArs4c6QAAACZJREFUCB1jtNRr/c+ADSBLgNhMMEXIEmDB45eqGWGSIBrOQVYJAJYgC7PVZLpmAAAAAElFTkSuQmCC);
 }
